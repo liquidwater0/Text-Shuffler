@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(55, 55, 55);
+}
+
+.heading {
+    position: absolute;
+    top: 100px;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 1.35px;
+}
+
+.text {
+    width: 25%;
+    height: 25%;
+    max-height: 50%;
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+
+.text:focus {
+    outline: none;
+}
+
+.shuffleButton {
+    position: absolute;
+    bottom: 100px;
+    font-size: 25px;
+    background-color: rgb(0, 160, 255);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 0.5em 0.75em;
+    cursor: pointer;
+    transition: background-color 200ms;
+}
+
+.shuffleButton:hover {
+    background-color: rgba(0, 160, 255, 0.75);
+}
